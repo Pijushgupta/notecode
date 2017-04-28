@@ -1,0 +1,33 @@
+[25-Oct-2016 20:43:57 UTC] PHP Warning:  require_once(/home/powerpijush/public_html/notecode/system/core/CodeIgniter.php): failed to open stream: Permission denied in /home/powerpijush/public_html/notecode/index.php on line 315
+[25-Oct-2016 20:43:57 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/powerpijush/public_html/notecode/system/core/CodeIgniter.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/powerpijush/public_html/notecode/index.php on line 315
+[25-Oct-2016 20:43:58 UTC] PHP Warning:  require_once(/home/powerpijush/public_html/notecode/system/core/CodeIgniter.php): failed to open stream: Permission denied in /home/powerpijush/public_html/notecode/index.php on line 315
+[25-Oct-2016 20:43:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/powerpijush/public_html/notecode/system/core/CodeIgniter.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/powerpijush/public_html/notecode/index.php on line 315
+[26-Oct-2016 10:56:56 UTC] PHP Fatal error:  Call to a member function send_activation_email() on a non-object in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 19
+[26-Oct-2016 11:03:26 UTC] PHP Fatal error:  Call to undefined function is_author() in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 41
+[26-Oct-2016 11:04:46 UTC] PHP Fatal error:  Call to a member function is_author() on a non-object in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 41
+[26-Oct-2016 11:10:48 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 42
+[26-Oct-2016 14:52:47 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 42
+[26-Oct-2016 14:53:14 UTC] PHP Fatal error:  Call to undefined method CI_Loader::is_author() in /home/powerpijush/public_html/notecode/application/controllers/Sign_up.php on line 43
+[26-Nov-2016 23:04:26 UTC] PHP Fatal error:  Function name must be a string in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 40
+[26-Nov-2016 23:13:43 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 38
+[26-Nov-2016 23:13:46 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 38
+[26-Nov-2016 23:14:12 UTC] PHP Fatal error:  Function name must be a string in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 40
+[26-Nov-2016 23:17:33 UTC] PHP Fatal error:  Function name must be a string in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 37
+[26-Nov-2016 23:27:43 UTC] PHP Parse error:  syntax error, unexpected '$re_post' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 40
+[26-Nov-2016 23:27:47 UTC] PHP Parse error:  syntax error, unexpected '$re_post' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 40
+[26-Nov-2016 23:27:49 UTC] PHP Parse error:  syntax error, unexpected '$re_post' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Public_login.php on line 40
+[28-Nov-2016 23:58:18 UTC] PHP Fatal error:  Call to undefined method Books::return_total_books() in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 29
+[29-Nov-2016 01:29:44 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/powerpijush/public_html/notecode/application/controllers/Home.php on line 36
+[29-Nov-2016 01:53:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/powerpijush/public_html/notecode/application/views/home/navbar.php on line 21
+[30-Nov-2016 21:52:09 UTC] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 53
+[30-Nov-2016 21:53:36 UTC] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 53
+[30-Nov-2016 23:16:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 51
+[30-Nov-2016 23:17:36 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 51
+[30-Nov-2016 23:18:08 UTC] PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 51
+[30-Nov-2016 23:21:09 UTC] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 53
+[30-Nov-2016 23:33:03 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE) in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 53
+[30-Nov-2016 23:36:43 UTC] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 54
+[30-Nov-2016 23:37:57 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE), expecting ',' or ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 54
+[30-Nov-2016 23:38:12 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE), expecting ',' or ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 54
+[30-Nov-2016 23:38:20 UTC] PHP Parse error:  syntax error, unexpected '$obj' (T_VARIABLE), expecting ',' or ';' in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 54
+[01-Dec-2016 02:08:18 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/powerpijush/public_html/notecode/application/controllers/Ajax_controller.php on line 50

@@ -1,0 +1,48 @@
+#Created by pijush
+#Date: Sun, Nov 13 8:57 AM
+#
+
+
+Tables:
+        1. authors
+                        author_id(primary key): int(11),
+                        author_email: varchar(255),
+                        author_password: varchar(255),
+                        author_password_status: int(11),
+                        author_name: varchar(255),
+                        author_timezone: varchar(255),
+                        author_piclink: varchar(255),
+                        author_verified: int(11),
+                        author_signup_time: varchar(255),
+                        author_facebook: int(11)
+                        author_books_limit: int(11)
+
+        2. posts
+                        post_id(primary key): int(11),
+                        post_visibility: enum('n', 'y'),
+                        post_protected: enum('n', 'y'),
+                        post_password: varchar(255),
+                        post_title: varchar(255),
+                        post_post_body: varchar(255),
+                        post_time: varchar(255),
+                        post_views: varchar(255)
+
+        3. timezones
+                        timezone_id: int(11),
+                        gmt_adjustment: varchar(255),
+                        daylight_time: int(11),
+                        value: varchar(255),
+                        timezone_name: varchar(255)
+
+        4. books
+                        book_id(primary key): int(11),
+                        book_author_id: int(11),
+                        book_name: varchar(255)
+                        book_desc: varchar(255)
+
+        5. book_post_map
+                        id(primary key): int(11),
+                        post_id: int(11),
+                        book_id: int(11)
+
+

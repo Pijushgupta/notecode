@@ -1,0 +1,163 @@
+@import 'https://fonts.googleapis.com/css?family=Sanchez';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+    padding-top: 50px;
+    background-color: #fdfdfd;
+
+}
+.my-text-one{
+    font-family: 'Sanchez', serif!important;
+}
+.my-text-two{
+    font-family: 'Lobster', serif!important;
+}
+.font-style-normal{
+    font-style: normal;
+    font-weight: 400;
+}
+.sitename{
+    font-family: 'Sanchez', serif;
+    color: #c2c2c2!important;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.sitename:hover{
+    color: #c2c2c2!important;
+}
+.sitename:visited{
+    color: #c2c2c2!important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.panel-heading{
+    font-family: 'Sanchez', serif;
+}
+.form-control{
+    border-radius: 2px;
+    font-family: 'Sanchez', serif;
+}
+.form-control:focus {
+    border-color: #c2c2c2;
+    outline: 0;
+    box-shadow: none;
+}
+.front-tagline{
+    font-family: 'Lobster', serif;
+    color:#c2c2c2;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.dropdown-menu{
+    border-radius: 2px !important;
+    border: 1px solid #ccc !important;
+}
+.dropdown-menu li a{
+    font-family: 'Sanchez', serif;
+}
+.my-dropdown{
+    min-width: 230px;
+    padding: 5px 15px;
+}
+.sidebar{
+    padding-left: 0;
+    padding-right: 0;
+    overflow-y: scroll;
+    position: fixed;
+}
+.sidebar-ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.sidebar-li{
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+
+}
+.sidebar-li:hover{
+}
+
+.sidebar-a{
+    padding: 15px;
+    display: block;
+    color: #949494 ;
+}
+.sidebar-a:hover{
+    text-decoration: none;
+    color: #565656!important;
+    background-color: #eaeaea;
+}
+.sidebar-h2{
+    font-family: 'Sanchez', serif!important;
+    display: block;
+}
+.sidebar-h2:hover{
+}
+.sidebar-h5{
+    font-family: 'Raleway', sans-serif!important;
+    font-size: 12px;
+}
+.editor{
+    padding: 0 10%;
+    padding-top:20px;
+}
+.input-title{
+    color: #419641;
+    font-size: 25px;
+}
+.my-input-box{
+    border: none;
+    background-color: #fdfdfd;
+    box-shadow: none;
+    padding: 0;
+}
+.input-text-area{
+    font-size: 15px;
+    resize: none;
+}
+.my-input-box::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f5f3f4;
+}
+.my-input-box::-moz-placeholder { /* Firefox 19+ */
+    color: #f5f3f4;
+}
+.my-input-box:-ms-input-placeholder { /* IE 10+ */
+    color: #f5f3f4;
+}
+.my-input-box:-moz-placeholder { /* Firefox 18- */
+    color: #f5f3f4;
+}
+.select-book-mobile{
+    margin-top: 10px;
+}
+.margintop30percent{
+    margin-top: 30%;
+}
+.panel{
+    border-radius: 2px !important;
+}
+.alert{
+    border-radius: 2px !important;
+    border-color: #ddd;
+}
+.btn{
+    border-radius: 2px!important;
+}
+.forgot-password,.forgot-password:hover{
+    color:#000000;
+}
+.right-bar{
+
+}
+
+
+
+
+
+
+
+
